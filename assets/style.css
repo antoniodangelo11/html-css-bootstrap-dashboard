@@ -1,0 +1,24 @@
+/* GENERAL SETTINGS */
+
+.bg_sky {
+    background-color: rgb(27,114,232);
+}
+
+/* HEADER */
+
+header {
+    background-color: rgb(255,255,255);
+}
+
+.logo_mobile {
+    width: 50px;
+}
+
+/* MAIN */
+
+aside {
+    height: 100vh;
+    width: 100px;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: rgb(5,30,52);
+}
