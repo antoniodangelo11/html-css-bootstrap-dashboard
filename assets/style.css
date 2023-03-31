@@ -29,13 +29,13 @@ main {
     background-color: rgb(5,30,52);
     margin-top: 4rem;
     height: calc(100vh - 4rem);
-    width: 60px;
+    width: 80px;
     overflow: hidden;
 }
 
 @media (min-width: 992px) {
     .side_bar {
-        flex: 0 0 120px
+        width: 150px;
     }
 }
 
