@@ -20,22 +20,29 @@ nav {
 
 /* MAIN */
 
-/* body {
+main {
     height: 100vh;
-} */
+}
 
-/* .sidebar {
+.side_bar {
     background-image: url(../img/sidebar-bg.png);
     background-color: rgb(5,30,52);
-    flex: 0 0 50px;
+    margin-top: 4rem;
     height: calc(100vh - 4rem);
-    padding-inline: 1rem;
+    width: 60px;
     overflow: hidden;
-} */
+}
 
-/* .center_content {
-	height: 100vh;
-    flex: 1 0 0;
+@media (min-width: 992px) {
+    .side_bar {
+        flex: 0 0 120px
+    }
+}
+
+.center_content {
+	height: calc(100vh - 4rem);
+    width: calc(100% - 60px);
+    margin-top: 4rem;
     overflow-y: auto;
     overflow-x: hidden;
-} */
+}
