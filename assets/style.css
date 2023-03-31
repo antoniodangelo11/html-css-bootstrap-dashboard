@@ -46,3 +46,9 @@ main {
     overflow-y: auto;
     overflow-x: hidden;
 }
+
+/* SECTION DOWN */
+
+.size {
+    width: 25px;
+}
