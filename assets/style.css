@@ -18,6 +18,12 @@ nav {
     width: 120px;
 }
 
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, .5);
+    cursor: pointer;
+    border-radius: 0;
+}
+
 /* MAIN */
 
 main {
